@@ -1,36 +1,30 @@
-# C-Suite
+# C-Suite — Clearview
 
-PK Game Labs executive reporting, maintained by the Chief Integrator for the Executive.
+**[Open the Clearview executive workbook](Clearview-Executive-Workstreams.xlsx)**
 
-**[Open the executive workbook](PKGameLabs-Executive-Workstreams.xlsx)**
+This `clearview` branch is Clearview's executive reporting home. The workbook covers five core workstreams, next closures, Executive help, standing direction, open decisions, authority and evidence. Amber **Executive instructions** cells are editable.
 
-The workbook is the single current record: brief workstream summaries, next closure, Executive help, standing direction, and authority/evidence. Amber cells in **Executive instructions** are for the Executive's response. Filters make it possible to review one workstream without creating separate copies.
+## Authority and scope
+
+The User / Product Owner holds final product, privacy and release decisions. Program Master owns Clearview coordination and integration. Product & Systems Architect, Context/Privacy & Data Steward, Implementation Engineer, and Independent Verification & Release Audit retain their defined responsibilities.
+
+The Executive's October 5, 2026 request authorizes this separate reporting branch. It does not transfer Clearview governance to PK Game Labs, appoint replacement specialists, approve pending contracts or authorize product release. PK Game Labs remains on `main`; do not merge this branch into `main` or carry either project's workbook into the other branch's current tree.
+
+Branches separate reporting content, not repository access permissions. This branch uses C-Suite's existing public visibility. Keep raw personal context, credentials, user histories and sensitive source payloads out of this repository.
 
 ## Update discipline
 
-- Update `PKGameLabs-Executive-Workstreams.xlsx` in place. Keep one stable row per workstream; preserve Executive instructions through refreshes and sorting.
-- Use Git commits for history. Do not add dated workbook copies, per-session status files, duplicate exports, or rolling report bundles.
-- Refresh from published producer evidence without interrupting teams. Record the review date and distinguish verified delivery, reported progress, and unknown status.
-- Carry authority, scope and unresolved obligations forward when a workstream changes. Do not treat a missing report as an inactive team or create an appointment by inference.
-- Build success, approved art, packed assets, deployed runtime and Windows gameplay acceptance are distinct milestones. Conflicting source records remain visible until reconciled.
-- Status labels describe delivery health, not individual performance. `Unverified` means the evidence was not established in the current intake.
+- Update `Clearview-Executive-Workstreams.xlsx` in place; Git retains history. Do not add dated workbook copies or per-session status bundles.
+- Preserve workstream identity, authority, unresolved obligations and Executive instructions when refreshing or sorting.
+- Read published Clearview evidence without interrupting teams. Record review dates and distinguish requirements, proposals, implemented candidates, tested results, integrated work and accepted releases.
+- Resolve contradictions using current primary records. Missing evidence does not prove a vacant seat, failed implementation or completed release.
+- Source tests do not replace Windows x64 and live-browser acceptance. Independent review must apply to Program Master's exact selected candidate.
 
-## Ownership and partitions
+## Engineering and sparse artifacts
 
-The Chief Integrator reports to the Executive and aggregates PK Game Labs. Build Master retains technical integration and release ownership; specialists retain their domain authority. Art Director has production-art approval authority. PK Chronicle remains spiritually, structurally and editorially independent from Marketing. Clearview is outside this repository's remit.
+[ClearMind](https://github.com/houdinicap/ClearMind) is the designated producer repository; engineering source, binaries, detailed contracts and audit payloads remain with their owners. The workbook records observed migration status without inventing deployment.
 
-Publishing this repository does not authorize game distribution, campaigns, signup, raffle or payment activation. Existing release holds remain effective until explicitly changed.
+Add an artifact here only when its exact bytes carry enduring executive value, such as an accepted mandate or release decision. Give it one stable filename. Routine summaries, blockers and decisions remain in the workbook.
 
-## Producer repositories
+This reporting workflow is on demand. It does not create background monitoring, notifications, appointments or release approval.
 
-- [PKGameLabs](https://github.com/houdinicap/PKGameLabs): game engineering, integration and acceptance.
-- [PKStudio](https://github.com/houdinicap/PKStudio): authoring tools and PKTest.
-- [PKPublishing](https://github.com/houdinicap/PKPublishing): Publishing House.
-
-Keep producer source, binaries, art payloads and detailed test evidence with their owning repositories. Source references belong in the workbook.
-
-## Sparse artifacts
-
-Add a supporting artifact only when its exact bytes have enduring executive value, such as a signed mandate, accepted launch brief or irreplaceable decision. Give it one stable filename and update it in place. Routine summaries and decision tracking stay inside the workbook. No separate artifact archive is needed at initialization.
-
-This is an on-demand reporting workflow, not an unattended monitoring service.
